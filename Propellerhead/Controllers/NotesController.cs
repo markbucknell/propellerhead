@@ -15,13 +15,6 @@ namespace Propellerhead.Controllers
     public class NotesController : Controller
     {
         private Context db; // = new Context();
-        private int customerId;
-
-        public NotesController(int customerId)
-        {
-            db = new Context();
-            this.customerId = customerId;
-        }
 
         public NotesController()
         {
@@ -31,7 +24,7 @@ namespace Propellerhead.Controllers
         // GET: Notes
         public ActionResult Index()
         {
-            return View(db.Notes.Where(x => x.Customer.CustomerId == this.customerId).ToList());
+            return View(db.Notes.ToList());
         }
 
         // GET: Notes/Details/5

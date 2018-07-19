@@ -5,13 +5,13 @@ using Propellerhead.Controllers;
 namespace Propellerhead.Tests.Controllers
 {
     [TestClass]
-    public class HomeControllerTest
+    public class CustomerControllerTest
     {
         [TestMethod]
         public void Index()
         {
             // Arrange
-            HomeController controller = new HomeController();
+            CustomersController controller = new CustomersController();
 
             // Act
             ViewResult result = controller.Index() as ViewResult;
