@@ -20,10 +20,10 @@ namespace Propellerhead.Migrations
 
             var customers = new List<Customer>
             {
-                new Customer{FirstName="Kris",LastName="Bright",CreatedDate=DateTime.Parse("2018-09-01"),ModifiedDate=DateTime.Parse("2018-09-01"),Active=true, Status=Models.Status.Current},
-                new Customer{FirstName="Fabrizio",LastName="Tavano",CreatedDate=DateTime.Parse("2018-09-01"),ModifiedDate=DateTime.Parse("2018-09-01"),Active=true, Status=Models.Status.Current},
-                new Customer{FirstName="Darren",LastName="White",CreatedDate=DateTime.Parse("2018-09-01"),ModifiedDate=DateTime.Parse("2018-09-01"),Active=true, Status=Models.Status.Current},
-                new Customer{FirstName="Albert",LastName="Riera",CreatedDate=DateTime.Parse("2018-09-01"),ModifiedDate=DateTime.Parse("2018-09-01"),Active=true, Status=Models.Status.NonActive}
+                new Customer{FirstName="Kris",LastName="Bright",Email="Kris.Bright@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.Current},
+                new Customer{FirstName="Fabrizio",LastName="Tavano",Email="Fabrizio.Tavano@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.Current},
+                new Customer{FirstName="Darren",LastName="White",Email="Darren.White@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.Current},
+                new Customer{FirstName="Albert",LastName="Riera",Email="Albert.Riera@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.NonActive}
             };
 
             customers.ForEach(s => context.Customers.Add(s));
