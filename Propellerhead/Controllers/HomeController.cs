@@ -6,7 +6,7 @@ namespace Propellerhead.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "Customers");
         }
         
     }

@@ -22,3 +22,8 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.note {
+    height:150px;
+    width: 400px;
+}

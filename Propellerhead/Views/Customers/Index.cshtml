@@ -9,6 +9,7 @@
 <table id="customerTable" class="display" style="width:100%">
     <thead>
         <tr>
+            <th>Id</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Email</th>
@@ -21,6 +22,9 @@
         @foreach (var item in Model.Customers)
     {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerId)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.FirstName)
             </td>

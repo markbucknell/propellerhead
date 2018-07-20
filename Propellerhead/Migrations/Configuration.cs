@@ -20,9 +20,13 @@ namespace Propellerhead.Migrations
 
             var customers = new List<Customer>
             {
-                new Customer{FirstName="Kris",LastName="Bright",Email="Kris.Bright@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.Current},
-                new Customer{FirstName="Fabrizio",LastName="Tavano",Email="Fabrizio.Tavano@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.Current},
+                new Customer{FirstName="Ali",LastName="Riley",Email="Ali.Riley@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.Current},
+                new Customer{FirstName="Abby",LastName="Erceg",Email="Abby.Erceg@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.Current},
                 new Customer{FirstName="Darren",LastName="White",Email="Darren.White@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.Current},
+                new Customer{FirstName="Katie",LastName="Boewn",Email="Katie.Boewn@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.NonActive},
+                new Customer{FirstName="Kris",LastName="Bright",Email="Kris.Bright@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.Current},
+                new Customer{FirstName="Kirsty",LastName="Yallop",Email="Kirsty.Yallop@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.Current},
+                new Customer{FirstName="Amber",LastName="Hearn",Email="Amber.Hearn@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.Current},
                 new Customer{FirstName="Albert",LastName="Riera",Email="Albert.Riera@propellerhead.com",Mobile="0123456789",CreatedDate=DateTime.Parse("2018-09-01 09:00"),ModifiedDate=DateTime.Parse("2018-09-01 09:00"),Active=true, Status=Models.Status.NonActive}
             };
 
